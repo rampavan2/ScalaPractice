@@ -1,0 +1,54 @@
+| Level 1: Scala basics — Arrays, Lists, and Strings |  |  |
+| --- | --- | --- |
+|  |  |  |
+| Questions 1–8 · Beginner |  |  |
+|  |  |  |
+| # | Coding question | Concepts covered |
+| 1 | Find the largest and smallest elements in an Array. | Array, max, min |
+| 2 | Reverse a List without using .reverse. | List, loops, foldLeft |
+| 3 | Find the sum and average of all elements in a List. | sum, foldLeft, Double |
+| 4 | Remove duplicate elements from a List. | distinct, Set |
+| 5 | Count the frequency of each character in a String. | Map, groupBy, map |
+| 6 | Find the second-largest distinct number in an Array. | distinct, sorted |
+| 7 | Merge two Lists and sort the resulting List. | ++, sorted |
+| 8 | Find all even and odd numbers from an Array. | filter, partition |
+|  |  |  |
+| Level 2: Collection transformations |  |  |
+|  |  |  |
+| Questions 9–16 · Beginner to intermediate |  |  |
+|  |  |  |
+| # | Coding question | Concepts covered |
+| 9 | Square every number in a List. | map |
+| 10 | Extract numbers greater than 50 from a List. | filter |
+| 11 | Flatten a nested List of Lists into a single List. | flatten, flatMap |
+| 12 | Convert a List of strings into uppercase and remove empty strings. | map, filter |
+| 13 | Calculate the sum of all numbers using reduce, foldLeft, and scanLeft. | Aggregation transformations |
+| 14 | Split a List into groups of three elements. | grouped |
+| 15 | Find the first number divisible by both 3 and 5. | find, Option |
+| 16 | Combine two Lists element by element. | zip, map |
+|  |  |  |
+| Level 3: Map, Set, Tuple, and Option |  |  |
+|  |  |  |
+| Questions 17–23 · Intermediate |  |  |
+|  |  |  |
+| # | Coding question | Concepts covered |
+| 17 | Count the frequency of each word in a sentence. | split, groupBy, Map |
+| 18 | Find common and unique elements between two Sets. | intersect, union, diff |
+| 19 | Convert a List of key-value Tuples into a Map, summing values for duplicate keys. | Tuple, groupBy, Map |
+| 20 | Find employees whose salaries exceed 50,000. | case class, filter |
+| 21 | Group employees by department and calculate their total salary. | groupBy, map, sum |
+| 22 | Handle missing values from a Map safely without throwing an exception. | get, Option, getOrElse |
+| 23 | Sort a List of employee Tuples by salary in descending order. | sortBy, Tuple |
+|  |  |  |
+| Level 4: Functional programming and data engineering scenarios |  |  |
+|  |  |  |
+| Questions 24–30 · Intermediate and interview-oriented |  |  |
+|  |  |  |
+| # | Coding question | Concepts covered |
+| 24 | Find the top 3 most frequently occurring words in a paragraph. | flatMap, groupBy, sortBy, take |
+| 25 | Transform a nested List of transactions into a flat List of transaction IDs. | flatMap |
+| 26 | Remove invalid records containing missing or negative salary values. | Option, filter, case class |
+| 27 | Perform an inner join between two Lists using a common employee ID. | Map, flatMap, Option |
+| 28 | Deduplicate records by ID, retaining the latest record based on timestamp. | groupBy, maxBy |
+| 29 | Calculate a running total of daily sales. | scanLeft |
+| 30 | Build a mini ETL pipeline: read records, filter invalid data, transform fields, aggregate by department, and produce output. | filter, map, groupBy, foldLeft |
